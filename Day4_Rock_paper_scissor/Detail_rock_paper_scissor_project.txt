@@ -1,0 +1,62 @@
+📅 Day 04 – Rock Paper Scissors Game ✊✋✌️
+🧠 Project Overview
+This Python script simulates the classic Rock-Paper-Scissors game between a human player and the computer. It uses ASCII art for visual flair and introduces randomness, user input, and conditional logic.
+
+🛠️ What It Does
+- Displays ASCII art for rock, paper, and scissors.
+- Takes user input (rock, paper, or scissors).
+- Randomly selects the computer’s choice.
+- Compares both choices and declares the winner or a draw.
+- Handles invalid input gracefully.
+
+📄 Code Summary
+import random
+
+# ASCII art for each choice
+rock = '''...'''
+paper = '''...'''
+scissors = '''...'''
+
+# List of choices
+list_of_choice = ["rock", "paper", "scissor"]
+
+# Computer randomly picks one
+computer_choice = random.choice(list_of_choice)
+
+# User input
+human_input = input("Enter your choice. rock, paper, scissors").lower()
+
+# Game logic
+if human_input == computer_choice:
+    print("It's a draw")
+elif human_input == "rock" and computer_choice == "paper":
+    print("Computer wins")
+elif human_input == "paper" and computer_choice == "rock":
+    print("You win!!")
+elif human_input == "paper" and computer_choice == "scissor":
+    print("Computer wins")
+elif human_input == "rock" and computer_choice == "scissor":
+    print("You win!!")
+elif human_input == "scissor" and computer_choice == "rock":
+    print("Computer wins")
+elif human_input == "scissor" and computer_choice == "paper":
+    print("You win!!")
+else:
+    print("Please enter a valid choice")
+
+
+
+🧪 Sample Output
+Enter your choice. rock, paper, scissors: rock
+Computer chose: scissors
+You win!!
+
+
+
+🚀 What I Learned
+- How to use random.choice() for unpredictability
+- How to compare strings using if/elif/else
+- How to use ASCII art for fun visual output
+- How to validate user input and handle errors
+
+
