@@ -1,0 +1,49 @@
+# 🛡️ Caesar Cipher Game – Day 8 of #100DaysOfCode
+
+This is a simple Caesar Cipher encryption/decryption game built in Python as part of my 100 Days of Code challenge.
+
+## 📌 What It Does
+
+- Encrypts or decrypts messages using Caesar Cipher logic
+- Shifts letters based on user input
+- Handles both uppercase and lowercase letters
+- Preserves non-alphabetic characters (spaces, punctuation)
+
+## 🚀 How to Use
+
+1. Run the script in your terminal or IDE
+2. Choose `encode` or `decode`
+3. Enter your message
+4. Enter a shift number
+5. View the transformed message
+
+## 🧪 Example
+
+Input: Direction: encode
+Message: Hello World
+Shift: 5
+Output: Mjqqt Btwqi
+
+
+## 🛠️ Tools Used
+
+- Python 3
+- Basic string manipulation
+- Loops and conditionals
+
+## 📅 Progress Log
+
+- ✅ Day 8 complete
+- 🔜 Next: Add ASCII art and file-saving feature
+
+## 📂 Folder Structure
+
+
+## 📣 Credits
+
+Inspired by Angela Yu’s 100 Days of Code Python Bootcamp.
+
+---
+
+
+
